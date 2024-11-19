@@ -91,7 +91,7 @@ while True:
 
     if choix == "1":
         description = input("Entrez la description du ticket : ")
-        priorite = input("Entrez la priorité (Basse/Moyenne/Haute) : ")
+        priorite = input("Entrez la priorité (Basse /Moyenne /Haute) : ")
         creer_ticket(description, priorite)
     elif choix == "2":
         afficher_tickets()
